@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+     background-image: url(assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px !important;
+}

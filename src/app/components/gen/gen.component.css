@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+.formMsg{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 8rem !important;
+    font-size: 1.27rem;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    background-color: rgb(7, 26, 44);
+    padding: 2rem;
+    margin: 0 1.5rem;
+    border-radius: 1rem;
+    animation: bounce 2s infinite ease;
+    flex-direction: column;
+}
+.yello{
+    color: rgb(248, 252, 7);
+    background-color: none !important;
+}
+@keyframes bounce{
+    0%, 100% {
+    transform: translateY(0);
+}
+50% {
+    transform: translateY(6px);
+}
+}
+.ctn{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 3rem 32rem;
+    padding: 3rem 0;
+    padding-bottom: 0;
+    font-family: 'DotGothic16', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.flx{
+    display: flex;
+}
+span{
+    padding-left: 3.5rem;
+}
+.iList{
+    display:flex;
+    justify-content: space-around;
+    padding: .7rem 2rem;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    margin-top: 1rem;
+    width: 30%;
+}
+input{
+    color: rgb(82, 183, 250);
+    background-color: transparent;
+    font-weight: 500;
+    border: none;
+    border-bottom: 1px solid;
+}
+button{
+    background-color:  rgb(82, 183, 250);
+    border: none;
+    color: white;
+    padding:.6rem 1rem;
+    font-size: 1.5rem; 
+    border-radius: 1rem;
+    margin: 1rem 0;
+}
+.Sna{
+    color: white;
+    background-color: rgb(196, 17, 17);
+    padding: .5rem;
+    margin: 1rem .5rem !important;
+}
+
+@media only screen and (max-width:1024px) and (min-width:280px){
+    .formMsg{
+        margin-top: 3rem !important;
+    }
+    .ctn{
+        margin: 3rem;
+    }
+}
